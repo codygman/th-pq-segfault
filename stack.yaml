@@ -9,4 +9,7 @@ packages:
 
 nix:
   enable: true
-  packages: [postgresql]
+  packages:
+#    - postgresql # No segfault
+#    - postgresql_12 # No segfault
+    - postgresql_13 # No segfault
