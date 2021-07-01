@@ -1,9 +1,5 @@
 resolver: lts-18.0
 
-# stack unpack HDBC-postgresql
-extra-deps:
-  - HDBC-postgresql-2.5.0.0
-
 packages:
   - .
   - ./pqexample
@@ -11,6 +7,4 @@ packages:
 nix:
   enable: true
   packages:
-#    - postgresql # segfault
-#    - postgresql_12 # segfault
-    - postgresql_13 # segfault
+    - p11-kit

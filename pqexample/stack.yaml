@@ -1,1 +1,6 @@
 resolver: lts-18.0
+
+nix:
+  enable: true
+  packages:
+    - p11-kit

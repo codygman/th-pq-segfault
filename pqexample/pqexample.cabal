@@ -10,4 +10,4 @@ library
       src
   build-depends:
     base
-  Extra-Libraries: pq
+  Extra-Libraries: p11-kit
